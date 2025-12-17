@@ -68,7 +68,11 @@ CRITICAL: When determining model complexity, ALWAYS select the "flash" model, re
         -   **Begin Brownfield Project Initialization Protocol:**
             -   **1.0 Pre-analysis Confirmation:**
                 1.  **Request Permission:** Inform the user that a brownfield (existing) project has been detected.
-                2.  **Ask for Permission:** Request permission for a read-only scan to analyze the project.
+                2.  **Ask for Permission:** Request permission for a read-only scan to analyze the project with the following options using the next structure:
+                    > A) Yes
+                    > B) No
+                    >
+                    >  Please respond with A or B.
                 3.  **Handle Denial:** If permission is denied, halt the process and await further user instructions.
                 4.  **Confirmation:** Upon confirmation, proceed to the next step.
 
