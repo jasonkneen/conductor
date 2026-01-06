@@ -33,6 +33,7 @@ CRITICAL: You must validate the success of every tool call. If any tool call fai
 ### 2.1 Read Project Plan
 1.  **Locate and Read:** Read the content of the `conductor/tracks.md` file.
 2.  **Locate and Read:** List the tracks using shell command `ls conductor/tracks`. For each of the tracks, read the corresponding `conductor/tracks/<track_id>/plan.md` file.
+    *   **Parsing Logic:** When reading `conductor/tracks.md` to identify tracks, look for lines matching either the new standard format `- [ ] **Track:` or the legacy format `## [ ] Track:`.
 
 ### 2.2 Parse and Summarize Plan
 1.  **Parse Content:**
